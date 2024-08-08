@@ -1,0 +1,9 @@
+n=[-1,-100,3,99]
+m=n[::-1]
+print(m)
+k=int(input())
+a=m[:k]
+print(a)
+b=m[k:]
+print(b)
+print(a[::-1]+b[::-1])
